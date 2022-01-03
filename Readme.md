@@ -30,12 +30,12 @@ module.exports = {
 
 # Write Smart contract
 Write a smart contract 
-```console
+```sh
 truffle create contract HelloWorld
 ```
 
 Write a migration, to deploy on blockchain
-```console
+```sh
 truffle create migration deploy_hello_world
 truffle migrate
 ```
